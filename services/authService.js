@@ -6,6 +6,7 @@ class AuthService {
     if (!user) {
       throw Error("User not found");
     }
+    console.log(user)
     return user;
   }
 }
